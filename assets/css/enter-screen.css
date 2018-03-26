@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}  
+
+body {
+   background: url("../images/bk-overlay-5.png"), url("../images/enter-screen.jpg") no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    /* border: 1px solid red; */
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    margin: auto;
+    left: 0; 
+    right: 0;
+    top: 0;
+    bottom: 360px; 
+  
+
+}
+
+#enter-button {
+    color: white;
+    /* background-color: rgb(213,79,139); */
+    background-color:purple; 
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.85;
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: 49%;
+
+    background-image: linear-gradient(to right, purple 0%, purple 51%, #fbc2eb 100%);
+    transition: 0.5s;
+}
+    
+
+
+#enter-button:hover {
+    color: purple;
+    background-image: linear-gradient(to right, #fbc2eb 100%, #fbc2eb 51%, purple 100%);
+    transition: 0.5s;
+}
+
+

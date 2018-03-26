@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Dark Crystal Collector Game</title>
+
+
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+  <div>
+    <!-- Title of Game -->
+    <h1>The Dark Crystal Collector Game</h1>
+
+    <!-- Game Instructions -->
+    <p>
+      <strong>Game Instructions</strong>
+      <br>
+      <br> Click on the gems below.
+      <br>Your goal is to get to the "Can You Get To This Score?"
+      <br>Get to score and you win.
+      <br>Go over and meet your DOOM!!!</p>
+  </div>
+
+  <div id="scoreBox">
+    <div id="scoreCard">
+      <!-- Game Scores -->
+      <h2 id="scoreWins">Wins:</h2>
+      <h2 id="scoreLosses">Losses:</h2>
+    </div>
+
+
+    <div class="scoreTotal">
+      <!-- Get To Score -->
+
+      <h2>Can You Get To This Score?
+        <span id="get-this-score">0</span>
+      </h2>
+
+      <!-- Your Score -->
+      <h2>Your Total Score:
+
+        <span id="your-score">0</span>
+      </h2>
+    </div>
+
+  </div>
+
+  <div id="imageDiv">
+    <!-- GEM # 1 -->
+    <img id="gem-1" class="gemStone" src="assets/images/gem1.png" value="1">
+
+    <!-- GEM # 2 -->
+    <img id="gem-2" class="gemStone" src="assets/images/gem2.png" value="10">
+
+    <!-- GEM # 3 -->
+    <img id="gem-3" class="gemStone" src="assets/images/gem3.png" value="20">
+
+    <!-- GEM # 4 -->
+    <img id="gem-4" class="gemStone" src="assets/images/gem4.png" value="30">
+  </div>
+
+
+  <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
